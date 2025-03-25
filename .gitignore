@@ -1,0 +1,73 @@
+# Bytecode & Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdm.toml
+*.pdm.lock
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Editor & IDE Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS System Files
+.DS_Store
+
+# Logs & Debugging Files
+logs/
+*.log
+
+# Coverage Reports
+.coverage
+htmlcov/
+*.cover
+.coverage.*
+
+# Pytest & Testing
+.tox/
+.nox/
+.pytest_cache/
+.jupyter/
+tests/__pycache__/
+
+# Dependency Management
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Profiling Data
+*.prof
+*.pstats
+
+# Security
+.env
+*.secret
+config.ini
+config.yaml
+
+# Temporary Files
+tmp/
+*.bak
